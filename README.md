@@ -1,7 +1,7 @@
 
 # E-SHOPPER
-I  developed a e-trade website in this project
-Main Page:
+I  developed a e-trade website in this project. This project is responsive
+<p>Main Page:</p>
 ![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/6f1c6164-e7c5-42c2-824d-8c22080d831b)
 
 <div align="center">
