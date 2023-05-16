@@ -19,6 +19,15 @@ Contact:
 Login:
 ![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/46e5dc5e-54a9-46df-b9ae-7c2e29448f5e)
 
+I used these technologies in this project:
+<p>HTML</p>
+<p>CSS</p>
+<p>BOOSTRAP</p>
+<p>JAVASCRIPT</p>
+<p>LOCALSTORAGE</p>
+<p>JSON</p>
+<p>FETCH</p>
+<p>WEB SCRAPPING (I GOT JSON DATA FROM AMAZON IF YOU ARE INTERESTED, I  WRITTEN  ARTICLE ABOUT IT, YOU CAN SEE IT ON MY PAGE  )</p>
 
 
 
