@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- style.css connection -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- Grey Navbar -->
+        <nav class="navbar grey-navbar navbar-expand-lg navbar-light bg-light py-0">
+            <div class=" navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav contact-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-phone px-2"></i> +2 95 01 88 821
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-envelope px-2"></i> info@domain.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Grey Navbar logo -->
+            <ul class=" navbar-nav  mx-auto px-5  ">
+                <div class="row ">
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-facebook-f px-3 "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-twitter px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-linkedin px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-reddit px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-google-plus-g px-3  "></i>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <!-- image navbar -->
+        <nav class="navbar navbar-expand-md  navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo.png" alt="">
+            </a>
+            <!-- IMAGE NAVBAR DROPDOWN -->
+            <div class="dropdown imageDropdown">
+                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle border mx-2 my-3"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    USA
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+            <div class="dropdown imageDropdown">
+                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle border mx-2 my-3"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Country
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- IMAGE NAVBAR RIGHT ITEMS -->
+            <div class="collapse navbar-collapse navbar-expand-sm" id="navbarNav">
+                <ul class="navbar-nav ml-auto navImg ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-user px-1"></i>Account
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-star px-1"></i> Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-sharp fa-solid fa-crosshairs px-1"></i> Checkout
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoppingCart.html">
+                            <i class="fa-solid fa-cart-shopping px-1"></i> Cart
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">
+                            <i class="fa-solid fa-lock px-1"></i> Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- horizontal line -->
+        <div class="container-fluid">
+            <hr>
+        </div>
+        <!-- CONTENT NAV -->
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <ul class="navbar-nav d-inline-block mr-auto   content-nav px-5 ">
+                <li class="nav-item d-inline-block ">
+                    <a class="nav-link active text-warning text-center " href="#">
+                        HOME
+                    </a>
+                </li>
+                <button id="btnGroupDrop2" type="button"
+                    class="  btn dropdown-toggle grey-text text-center d-inline-block " data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    SHOP
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+                <button id="btnGroupDrop2" type="button"
+                    class="btn dropdown-toggle grey-text text-center d-inline-block " data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    BLOG
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+                <li class="nav-item px-1 grey-text text-center d-inline-block deneme2 ">
+                    <a class="nav-link " href="#">
+                        404
+                    </a>
+                </li>
+                <li class="nav-item px-1 grey-text text-center d-inline-block">
+                    <a class="nav-link " href="contact.html">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            <!-- Search input -->
+            <div class="input-group ml-auto col-xl-2 col-lg-3 col-md-3  ">
+                <input id="Search" type="text" class="form-control bg-light " placeholder="Search">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass "></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container ">
+            <div class="row col-xl-12 col-lg-12 col-md-12 py-2 px-3 orange shoppingCart">
+                <p class="col-xl-4 col-lg-4 col-md-4 text-white">Item</p>
+                <p class="col-xl-2 col-lg-2 col-md-2 px-5  text-white">Price</p>
+                <p class="col-xl-4 col-lg-3 col-md-3 px-5 text-white">Quantity</p>
+                <p class="col-xl-2 col-lg-3 col-md-3 px-5 text-white">Total</p>
+            </div>
+            <div class="row col-xl-12 col-lg-12 col-md-12 border">
+                <img class="col-xl-2 col-lg-2 col-md-2 w-100"
+                    src="https://i0.wp.com/goodmarket.com.tr/wp-content/uploads/2022/04/apple-iphone-12-pro-128-gb-graphite-477.jpg?resize=300%2C300&ssl=1"
+                    alt="">
+                <div class="col-xl-2 col-lg-2 col-md-2 my-5 py-5">
+                    <p class="text-center">Iphone 13 Pro Max</p>
+                    <p class="grey-text text-center">Id:1</p>
+                </div>
+                <p class="col-xl-2 col-lg-2 col-md-2 my-xl-5 my-lg-5 py-5 px-5 text-center">$59</p>
+                <div class="quantity col-xl-2 col-lg-2 col-md-2 m-auto">
+                    <button class="btn btn-light" id="decrease">-</button>
+                    <span id="quantityValue">0</span>
+                    <button class="btn btn-light" id="increase">+</button>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-3 my-5">
+                    <div class="row my-5 py-3 text-center">
+                        <p class="col-lg-4 col-md-4"></p>
+                        <p class="col-lg-4 col-md-4">59$</p>
+                        <button class="btn btn-secondary col-lg-2 col-md-3 col-sm-5 m-auto"> <i
+                                class="fa-solid fa-x  "></i></button>
+                    </div>
+                </div>
+            </div>
+            <h5 class="my-5">What would you like to do next?</h5>
+            <p class="grey-text">Chose if you have a discount code or reawrd points you waant to use or would like to
+                estimate your delivery cost</p>
+            <div class="row col-xl-12 col-lg-12 col-md-12  ">
+                <div class="col-xl-6 col-lg-5 col-md-12 m-auto mx-3  border">
+                    <div class="my-4 mx-3">
+                        <div class="form-check my-2">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                            <label class="form-check-label" for="exampleCheckbox">Use Coupon Code</label>
+                        </div>
+                        <div class="form-check my-2">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                            <label class="form-check-label" for="exampleCheckbox">Use Gift Vocuher</label>
+                        </div>
+                        <div class="form-check my-2">
+                            <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                            <label class="form-check-label grey" for="exampleCheckbox">Estimate Shipping &Taxes</label>
+                        </div>
+                    </div>
+                    <div class="row col-xl-12 col-lg-12 ">
+                        <div class="col-xl-4 col-lg-3 mx-2 my-4">
+                            <label for="Country">Country:</label>
+                            <select class="bg-light">
+                                <option value="option1">United</option>
+                                <option value="option2">Seçenek 2</option>
+                                <option value="option3">Seçenek 3</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3  mx-2 my-4">
+                            <label for="Country">Region/State:</label>
+                            <select class="bg-light">
+                                <option value="option1"> Select</option>
+                                <option value="option2">Seçenek 2</option>
+                                <option value="option3">Seçenek 3</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 mx-4">
+                            <label class="mx-2" for="Country">Zip Code:</label>
+                            <input class=" col-xl-12 col-lg-12 my-0 form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="row col-xl-12 col-lg-12 ">
+                        <button class="btn  mx-3 my-3 orange col-xl-3 col-lg-4 text-white">Get Qotes</button>
+                        <button class="btn   mx-3 my-3 orange col-xl-3 col-lg-4  text-white">Contuine</button>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 m-auto   mx-4 border">
+                    <div class="row my-3">
+                        <div class="col-xl-12 col-lg-12  my-2">
+                            <div class="input-group">
+                                <p class="input-group-text bg-light border-right-0">Cart Sub Total</p>
+                                <input type="text" class="form-control border-left-0 border-right-0 bg-light"
+                                    aria-label="Input">
+                                <p class="input-group-text border-left-0 bg-light">59$</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12  my-2">
+                            <div class="input-group">
+                                <p class="input-group-text bg-light border-right-0">Eco Tax</p>
+                                <input type="text" class="form-control border-left-0 border-right-0 bg-light"
+                                    aria-label="Input">
+                                <p class="input-group-text border-left-0 bg-light">2$</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12   my-2">
+                            <div class="input-group">
+                                <p class="input-group-text bg-light border-right-0">Shipping Cost</p>
+                                <input type="text" class="form-control border-left-0 border-right-0 bg-light"
+                                    aria-label="Input">
+                                <p class="input-group-text border-left-0 bg-light">Free</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 my-2">
+                            <div class="input-group">
+                                <p class="input-group-text bg-light border-right-0">Total</p>
+                                <input type="text" class="form-control border-left-0 border-right-0 bg-light"
+                                    aria-label="Input">
+                                <p class="input-group-text border-left-0 bg-light">61$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn  mx-3 my-3 orange col-4 col-md-3 text-white">Update</button>
+                        <button class="btn  mx-3 my-3 orange col-4 col-md-3 text-white">Check Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer ">
+        <div class="row container-fluid d-flex justify-content-center   col-xl-12 ">
+            <div class="col-xl-2  shopperText my-5">
+                <h3 class=" grey-text text-center"><span class="text-warning">E</span>-SHOPPER</h3>
+                <p class="grey-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sapiente
+                    architecto dolorem dolore, ad at id odio eaque expedita vitae?</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems2.png" alt="">
+                <p class="grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center my-0">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems3.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems4.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class="grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class=" col-xl-2 col-lg-12  map  py-5 ">
+                <img src="img/footerMap.png" alt="">
+            </div>
+        </div>
+        </div>
+        <!-- HR LINE -->
+        <div class="container-fluid">
+            <hr class="hr-line">
+        </div>
+        <!-- FOOTER CONTENT -->
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5 ">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 col-10  py-5">
+                    <h3 class="mx-3">ABOUT SHOPPER</h3>
+                    <div class="input-group px-3">
+                        <input type="text" class="form-control bg-light" placeholder="Your Email Adress">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-warning"><i
+                                    class="fa-solid fa-magnifying-glass "></i></span>
+                        </div>
+                        <p class="grey-text py-3"> Get the most recent updates from
+                            our site and be updated your self.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- COPYRIGHT FOOTER -->
+    <footer class="footer-copyright">
+        <div class="row col-12">
+            <div class="col-xl-8 col-lg-6 col-md-5 col-sm-12 col-12 copyright-sm-center mr-xl-auto mx-5 my-2  ">
+                <p>Copyright @ 2013 E-SHOPPER ınc. rights reserved.</p>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-10 col-12 copyright-sm-center ml-auto  mx-4 my-2">
+                <p>Designed by <a class="text-warning">Clabiyik</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- BOOSTRAP CONNECTION -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- app.js connection -->
+    <script src="app.js"></script>
+    <!-- Font awesome connection -->
+    <script src="https://kit.fontawesome.com/13ca3ded6c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

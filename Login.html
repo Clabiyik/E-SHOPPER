@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- style.css connection -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- Grey Navbar -->
+        <nav class="navbar grey-navbar navbar-expand-lg navbar-light bg-light py-0">
+            <div class=" navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav contact-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-phone px-2"></i> +2 95 01 88 821
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-envelope px-2"></i> info@domain.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Grey Navbar logo -->
+            <ul class=" navbar-nav  mx-auto px-5  ">
+                <div class="row ">
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-facebook-f px-3 "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-twitter px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-linkedin px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-reddit px-3  "></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="nav-item">
+                            <i class="logo fa-brands fa-google-plus-g px-3  "></i>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+        <!-- image navbar -->
+        <nav class="navbar navbar-expand-md  navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo.png" alt="">
+            </a>
+            <!-- IMAGE NAVBAR DROPDOWN -->
+            <div class="dropdown imageDropdown">
+                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle border mx-2 my-3"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    USA
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+            <div class="dropdown imageDropdown">
+                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle border mx-2 my-3"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Country
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- IMAGE NAVBAR RIGHT ITEMS -->
+            <div class="collapse navbar-collapse navbar-expand-sm" id="navbarNav">
+                <ul class="navbar-nav ml-auto navImg ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-user px-1"></i>Account
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-star px-1"></i> Wishlist
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-sharp fa-solid fa-crosshairs px-1"></i> Checkout
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoppingCart.html">
+                            <i class="fa-solid fa-cart-shopping px-1"></i> Cart
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">
+                            <i class="fa-solid fa-lock px-1"></i> Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- horizontal line -->
+        <div class="container-fluid">
+            <hr>
+        </div>
+        <!-- CONTENT NAV -->
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <ul class="navbar-nav d-inline-block mr-auto   content-nav px-5 ">
+                <li class="nav-item d-inline-block ">
+                    <a class="nav-link active text-warning text-center " href="#">
+                        HOME
+                    </a>
+                </li>
+                <button id="btnGroupDrop2" type="button"
+                    class="  btn dropdown-toggle grey-text text-center d-inline-block " data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    SHOP
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+                <button id="btnGroupDrop2" type="button"
+                    class="btn dropdown-toggle grey-text text-center d-inline-block " data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    BLOG
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+                <li class="nav-item px-1 grey-text text-center d-inline-block deneme2 ">
+                    <a class="nav-link " href="#">
+                        404
+                    </a>
+                </li>
+                <li class="nav-item px-1 grey-text text-center d-inline-block">
+                    <a class="nav-link " href="contact.html">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            <!-- Search input -->
+            <div class="input-group ml-auto col-xl-2 col-lg-3 col-md-3  ">
+                <input id="Search" type="text" class="form-control bg-light " placeholder="Search">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass "></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <!-- LOGIN -->
+        <div class="container ">
+            <div class="row py-5">
+                <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 my-5 loginSide  ">
+                        <h4 class="grey-text py-3">Login to your account</h4>
+                        <div class="form-group">
+                            <input class="form-control my-2 bg-light" type="text" placeholder="Name" id="username">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control my-2 bg-light" type="text" placeholder="Email Address"
+                                id="password">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                                <label class="form-check-label" for="exampleCheckbox">Keep me signed in</label>
+                            </div>
+                        </div>
+                        <button onclick="loginFunc()" class="btn btn-warning text-white px-4">Login</button>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 my-5 or">
+                    <p class="mx-5 py-3 rounded-circle bg-warning text-center my-5">OR</p>
+                </div>
+                <!-- SIGNUP  -->
+                <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12 my-5 loginSide">
+                    <h4 class="grey-text py-3">New User Signup!</h4>
+                    <div class="form-group">
+                        <input class="form-control my-2 bg-light" type="text" placeholder="Name" id="name">
+                        <input class="form-control my-2 bg-light" type="email" placeholder="Email Address" id="mail">
+                        <input class="form-control my-2 bg-light" type="password" placeholder="Password" id="pass">
+                    </div>
+                    <!-- Javascript onClick -->
+                    <button onclick="Authentication()" class="btn btn-warning text-white px-4" id="btn">Signup </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer ">
+        <div class="row container-fluid d-flex justify-content-center   col-xl-12 ">
+            <div class="col-xl-2  shopperText my-5">
+                <h3 class=" grey-text text-center"><span class="text-warning">E</span>-SHOPPER</h3>
+                <p class="grey-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sapiente
+                    architecto dolorem dolore, ad at id odio eaque expedita vitae?</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems2.png" alt="">
+                <p class="grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center my-0">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems3.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class=" grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class="col-xl-1.5 mx-3  my-5">
+                <img src="img/footerItems4.png" alt="">
+                <p class=" grey-text text-center font-weight-bold ">Circle Of Hands</p>
+                <p class="grey-text text-center">24 DEC 2000</p>
+            </div>
+            <div class=" col-xl-2 col-lg-12  map  py-5 ">
+                <img src="img/footerMap.png" alt="">
+            </div>
+        </div>
+        </div>
+        <!-- HR LINE -->
+        <div class="container-fluid">
+            <hr class="hr-line">
+        </div>
+        <!-- FOOTER CONTENT -->
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5 ">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5 py-5">
+                    <h3 class="mx-3">SERVICE</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item   "><a class="nav-link grey-text" href="#">ONLINE HELP</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CONTACT US</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">ORDER STATUS</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">CHANGE LOCATION</a></li>
+                        <li class="nav-item "><a class="nav-link grey-text" href="#">FAQ'S</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 col-10  py-5">
+                    <h3 class="mx-3">ABOUT SHOPPER</h3>
+                    <div class="input-group px-3">
+                        <input type="text" class="form-control bg-light" placeholder="Your Email Adress">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-warning"><i
+                                    class="fa-solid fa-magnifying-glass "></i></span>
+                        </div>
+                        <p class="grey-text py-3"> Get the most recent updates from
+                            our site and be updated your self.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- COPYRIGHT FOOTER -->
+    <footer class="footer-copyright">
+        <div class="row col-12">
+            <div class="col-xl-8 col-lg-6 col-md-5 col-sm-12 col-12 copyright-sm-center mr-xl-auto mx-5 my-2  ">
+                <p>Copyright @ 2013 E-SHOPPER ınc. rights reserved.</p>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-10 col-12 copyright-sm-center ml-auto  mx-4 my-2">
+                <p>Designed by <a class="text-warning">Clabiyik</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- BOOSTRAP CONNECTION -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- app.js connection -->
+    <script src="app.js"></script>
+    <!-- Font awesome connection -->
+    <script src="https://kit.fontawesome.com/13ca3ded6c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

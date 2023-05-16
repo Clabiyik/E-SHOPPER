@@ -1,0 +1,63 @@
+[
+    { 
+      "urun_adi": "Apple iPhone 12 Pro ",
+      "fiyat": "12599.99 ₺",
+      "resim": "https://i0.wp.com/goodmarket.com.tr/wp-content/uploads/2022/04/apple-iphone-12-pro-128-gb-graphite-477.jpg?resize=300%2C300&ssl=1",
+      
+      "aciklama": "6.1 inç Super Retina XDR ekran, A14 Bionic çip, 5G uyumluluk, 128 GB depolama"
+    },
+    {
+      "urun_adi": "Samsung Galaxy S21 ",
+      "fiyat": "9999.0₺",
+      "resim": "https://pieceypay.co.uk/uploads/images/img_x300_625596edf112a7-64203490-55243717.jpg",
+      "aciklama": "6.8 inç Dynamic AMOLED ekran, Exynos 2100 çip, 5G uyumluluk, 256 GB depolama"
+    },
+    {
+      "urun_adi": "Xiaomi Mi 11 Plus",
+      "fiyat": "7599.0₺",
+      "resim": "https://pieceypay.co.uk/uploads/images/img_x300_6256b2ed898e67-14015633-57589686.jpg",
+      "aciklama": "6.81 inç AMOLED ekran, Snapdragon 888 çip, 5G uyumluluk, 128 GB depolama"
+    },
+    {
+      "urun_adi": "Apple MacBook Pro",
+      "fiyat": "12999.0₺",
+      "resim": "https://st.myideasoft.com/idea/dw/66/myassets/products/386/16-1_min.png?revision=1675679268",
+      "aciklama": "16 inç Retina ekran, Intel Core i9 çip, 16 GB RAM, 512 GB depolama"
+    },
+    {
+      "urun_adi": "Sony PlayStation 5",
+      "fiyat": "7499.0₺",
+      "resim": "https://m.media-amazon.com/images/S/aplus-media/vc/e336bde8-5efd-49b3-8df3-b68b96fe5ab4.__CR586,0,1818,1818_PT0_SX300_V1___.png",
+      "aciklama": "8 çekirdekli AMD Zen 2 işlemci, 10.28 TFLOP AMD Radeon RDNA 2 grafik işlemci, 825 GB SSD depolama"
+    },
+    {
+      "urun_adi": "Samsung QLED Q80A TV",
+      "fiyat": "7599.0₺",
+      "resim": "https://www.tech-america.com/dd2/img/item/300x300-ORIGINAL/Q/QN55Q80AAFXZA.jpg",
+      "aciklama": "65 inç QLED ekran, 4K Ultra HD çözünürlük, HDMI 2.1, HDR10+ desteği"
+    },
+    {
+      "urun_adi": "Dell XPS 13 Laptop",
+      "fiyat": "8499.0₺",
+      "resim": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/dell/thumb/122015_small.jpg",
+      "aciklama": "13.4 inç InfinityEdge ekran, Intel Core i7 çip, 16 GB RAM, 512 GB SSD depolama"
+    },
+    {
+      "urun_adi": "Sony WH-1000XM4 Kulaklık",
+      "fiyat": "2499.0₺",
+      "resim": "https://st1.myideasoft.com/idea/gf/01/myassets/products/605/0001883889001-1_min.jpg?revision=1651739205",
+      "aciklama": "Aktif gürültü engelleme, 30 saat pil ömrü, dokunmatik kontroller"
+    },
+    {
+      "urun_adi": "Canon EOS R5 Fotoğraf Makinesi",
+      "fiyat": "35999.0₺",
+      "resim": "https://st2.myideasoft.com/idea/ap/77/myassets/products/337/can1.jpg?revision=1650718381",
+      "aciklama": "45 MP Full Frame CMOS sensör, 8K video kaydı, 5-eksenli görüntü sabitleme"
+    }
+  
+    
+    
+    
+    
+    
+]

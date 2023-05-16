@@ -1,0 +1,119 @@
+/* I USE FOR H2 LINE IN INDEX.HTML FEATURES ITEMS AND CATEGORY */
+h2,
+.contact-border {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #a49e9e;
+  line-height: 0.1em;
+}
+h2 span,
+.contact-border span {
+  background: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-inline: 50px;
+}
+/* I use for grey text */
+.grey-text {
+  color: rgb(143, 145, 146);
+}
+/* I used this class for the hr line located on the footer */
+.hr-line {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+/* FOOTER BACKGROUND */
+.footer {
+  background-color: rgb(231, 228, 228);
+}
+/* FOOTER COPYRIGHT */
+.footer-copyright {
+  background-color: rgb(160, 159, 159);
+}
+/* .card-img-top {
+  width: 300px;
+  height: 300px;
+} */
+/* .card-text {
+  font-size: 20px;
+  font-weight: bold;
+} */
+.orange {
+  background: #fca402;
+  width: 100%;
+}
+/* I use for Cart quantity */
+.quantity {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+/***************************************! MEDIA TEXT ****************************************/
+
+/* ≥1200px*/
+@media (max-width: 1200px) {
+  .map {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ≥990px*/
+@media (max-width: 990px) {
+  .grey-navbar .nav-item {
+    display: inline-block;
+  }
+  .logo {
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .contact-nav {
+    display: inline-block;
+  }
+  .contact-nav .nav-item,
+  .orangeItems {
+    display: none;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+  }
+  .content-nav {
+    margin: auto;
+  }
+}
+/* ≥768px*/
+@media (max-width: 768px) {
+  .grey-navbar .contact-nav,
+  .or,
+  .shoppingCart, .e-shopperText {
+    display: none;
+  }
+  .navbar-expand-sm,
+  .navbar-expand-md {
+    display: flex;
+    justify-content: center;
+  }
+  .copyright-sm-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .navImg {
+    margin: auto;
+  }
+  .loginSide {
+    justify-content: center;
+  }
+}
+/* ≥658px*/
+@media (max-width: 658px) {
+  .grey-navbar,
+  .imageDropdown {
+    display: none;
+  }
+  .contact-input {
+    margin: auto;
+  }
+}
