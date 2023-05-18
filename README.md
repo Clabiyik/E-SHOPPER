@@ -3,38 +3,25 @@
 I  developed a e-trade website in this project. This project is responsive
 <p>Main Page:</p>
 
-
-
-![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/6f1c6164-e7c5-42c2-824d-8c22080d831b)
-
-
-
+![Screenshot_48](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/091e3b92-bd16-41c0-90fe-56fb21b8b6fa)
 
 <div align="center">
-  <img src="https://github.com/Clabiyik/E-SHOPPER/assets/98713471/03f71611-eb23-4f93-bd87-3698a42138d4" alt="GIF Title" />
+  
+  ![ezgif com-video-to-gif](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/95b32ce1-ada7-4add-9ebd-3ba0504b2b22)
+  
 </div>
-
-
 
 Shopping Cart:
 
 You press the Add to cart button and your product will be added here 
-
-
-
-![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/63154a42-d6fe-400e-8d7c-32b49b87969b)
-
-
-
+![Screenshot_49](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/8a801cd7-a23b-47ba-8e53-994cd2ba6039)
 
 Contact:
-
-
-![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/6789a226-4a99-4593-a4e6-58bf7fddf5cf)
+![Screenshot_50](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/06c4bc30-d72d-414f-82f4-f823132a7968)
 
 Login:
 
-![image](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/46e5dc5e-54a9-46df-b9ae-7c2e29448f5e)
+![Screenshot_51](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/c91807e1-aa94-4ccc-9d23-74afcd3d6661)
 
 I used these technologies in this project:
 <p>HTML</p>
