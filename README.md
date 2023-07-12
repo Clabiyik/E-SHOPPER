@@ -11,7 +11,7 @@ I  developed a e-trade website in this project. This project is responsive
   ![ezgif com-video-to-gif](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/95b32ce1-ada7-4add-9ebd-3ba0504b2b22)
   
 </div>
-
+ 
 Shopping Cart:
 
 You press the Add to cart button and your product will be added here 
