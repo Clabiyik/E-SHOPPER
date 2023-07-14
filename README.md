@@ -35,6 +35,6 @@ I used these technologies in this project:
 <p>WEB SCRAPPING (I GOT JSON DATA FROM AMAZON IF YOU ARE INTERESTED, I  WRITTEN  ARTICLE ABOUT IT, YOU CAN SEE IT ON MY PAGE  )</p>
 
 
- 
+    
   
     
