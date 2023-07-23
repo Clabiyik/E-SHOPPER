@@ -4,6 +4,7 @@
 I  developed a e-trade website in this project. This project is responsive
 <p>Main Page:</p>
 
+
 ![Screenshot_48](https://github.com/Clabiyik/E-SHOPPER/assets/98713471/091e3b92-bd16-41c0-90fe-56fb21b8b6fa)
 
 <div align="center">
